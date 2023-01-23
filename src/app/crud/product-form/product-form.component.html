@@ -1,1 +1,22 @@
-<p>product-form works!</p>
+<form class="p-5">
+  <div class="mb-3">
+    <label for="product-name" class="form-label">product name </label>
+    <div class="col-sm-4">
+    <input type="email" class="form-control" id="product-name" aria-describedby="emailHelp">
+    </div>
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="product-desc" class="form-label">product description </label>
+    <div class="col-sm-4">
+        <textarea id="desc" name="dsc"  rows="3" cols="61"></textarea>
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="product-price" class="form-label">price</label>
+    <div class="col-sm-4">
+    <input type="text" class="form-control" id="product-price">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
