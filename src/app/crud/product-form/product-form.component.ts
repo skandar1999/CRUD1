@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CrudServiceService } from '../crud-service.service';
 
 @Component({
   selector: 'app-product-form',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private crudServiceService:CrudServiceService) { }
 
   ngOnInit(): void {
   }

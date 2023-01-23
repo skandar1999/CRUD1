@@ -1,3 +1,4 @@
+import { CrudServiceService } from './../crud-service.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductDetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private crudServiceService:CrudServiceService) { }
 
   ngOnInit(): void {
   }
